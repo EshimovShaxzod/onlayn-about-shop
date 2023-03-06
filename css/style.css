@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: linear-gradient(180deg, #FFF9E6 0%, #F9E9C3 100%);
+}
+.shopping_item {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopping_item p{
+    padding-left: 10px;
+    font-weight: 600;
+    color: #004643;
+}
+.shopping_item span{
+    color: #004643;
+    font-size: 30px;
+}
+#home{
+    color: #004643;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 121%;
+}
+.list_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lists{
+    display: flex;
+}
+.lists li{
+    cursor: pointer;
+    color: #595959;
+    font-size: 20px;
+    padding: 0 25px;
+    list-style: none;
+}
+.lists li:hover{
+    color: #004643;
+    transition: .7s;
+}
+/* main qismi uchun */
+.section{
+    background: linear-gradient(180deg, #FFF9E6 0%, #F9E9C3 100%);
+    height: 600px;
+}
+.fashion_shopping{
+    padding-top: 50px;
+}
+.info_shopping p{
+    color: #595959;
+}
+.info_shopping{
+    width: 60%;
+    float: left;
+}
+.info_shopping h2{
+    color: #004643;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.info_shopping button{
+    margin: 20px 0px;
+    padding: 12px 50px;
+    background-color:rgb(45, 105, 107) ;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+}
+.info_shopping button:hover{
+    background-color: #004643;
+    color: antiquewhite;
+    transition: 1s;
+    border: 0;
+    }
+.handsome-photo{
+    position: relative;
+    width: 40%;
+    float: left;
+    background-color: rgb(40, 160, 190);
+    background-image: radial-gradient(circle,  rgb(193, 178, 178), rgb(44, 163, 163));
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 70px;
+    border: 1px solid white;
+}
+.handsome-photo img{
+    position: absolute;
+    top: -110px;
+    left: 17px;
+}
+.handsome-photo img:hover{
+    transform: translate3d(5px, 1px, 3px);
+    transition: 1s;
+}
+.handsome-photo button{
+     opacity: 0.8;
+    position: absolute;
+    bottom: -79px;
+    left:35px;
+    cursor: pointer;
+    padding: 25px 100px;
+    box-sizing: content-box;
+    border-radius: 20px;
+     background: rgba(0, 70, 67, 1);
+    color: white;
+    border: 1px solid white;
+    box-shadow: 2px 2px 1px 1px white; 
+}
+/* navbatdagi section */
+.store_convenience{
+    margin-top: 80px; 
+    margin-bottom: 100px;
+}
+.shopping-money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopping-money>div{
+    padding: 15px 20px;
+    background-color: radial-gradient(circle,  rgb(193, 178, 178), rgb(44, 163, 163));
+}
+.shopping-money>div:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+    background-color: lightblue;
+}
+.shopping-money h3{
+    color: rgba(0, 70, 67, 1);
+    margin-bottom: 8px;
+}
+.shopping-money p{
+    color: rgba(89, 89, 89, 1);
+
+}
+.shopping-money img{
+    margin-left: 30px;
+}
+
+/* navbatdagi section qismi uchun */
+.price_about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.price_about>div{
+    border-radius: 16px;
+    padding: 20px 0;
+}
+.price_about h4{
+    color: rgba(0, 70, 67, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.price_about p{
+    padding-bottom: 15px;
+    font-family: 'Rajdhani';
+    text-align: center;
+    color: #595959;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.price_about button{
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;     
+    color: #004643;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.best_product{
+    width: 300px;
+    padding:25px 5px ;
+}
+.best_product h3{
+    color: #004643;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121%    
+}
+.bomber_cotton{
+    background: rgba(216, 243, 220, 1);
+}
+.bomber_cotton:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+}
+.icon_items{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.love-image{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 45px;
+    left: 80px;
+    margin-right: 15px;
+}
+.add-image{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 45px;
+    left: 120px;
+}
+.jacket_price{
+    background: rgba(188, 231, 132, 1);
+}
+.jacket_price:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+}
+.handbag_price{
+    background: rgba(150, 224, 114, 1);
+}
+.handbag_price:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+}
+.group_image{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.next_price-icon{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+/* info limited section qismi uchun */
+.info_limited{
+    background-image: url(../img/minimalist-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.about_limited{
+    display: flex;
+    align-items: center;
+}
+.pretty-photo{
+    background-image: url("../img/background-fon.png");
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.stock_limited{
+    padding: 10px 40px;
+}
+.stock_limited h4, h2{
+    color: rgba(0, 70, 67, 1);
+    margin-bottom: 15px;
+}
+.stock_limited h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121%;
+}
+.stock_limited h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 121%;
+}
+.stock_limited button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 10px 0;
+}
+.stock_limited p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.about_price{
+    margin-bottom: 90px;
+}
+.product_price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.product_price>div{
+    background-color: beige;
+    margin-left: 10px;
+}
+.product_price>div:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+    background-color: antiquewhite;
+}
+.product_price h4{
+    color: #004643;
+}
+.product_price p{
+    color: #595959;
+}
+.most_selling-affirmative {
+    padding: 40px 10px;
+}
+.most_selling-affirmative h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%; 
+    margin-bottom: 40px;
+    padding-top: 8px;
+}
+.most_selling-affirmative p{
+    color: rgba(89, 89, 89, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.most_selling-affirmative button{
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 7px;
+}
+.green_switer-card h4{
+    margin-left: 120px;
+}
+.green_switer-card p{
+     margin-left: 140px;
+}
+
+.bomber_coton-card h4{
+    margin-left: 120px; 
+}
+.bomber_coton-card p{
+    margin-left: 140px; 
+}
+.product_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.product_cards>div{
+   background-color:beige;
+   padding: 15px 10px;
+}
+.product_cards>div:hover{
+    transition: 1s;
+    transform: translate3d(8px,3px, 3px);
+    background-color: antiquewhite;
+}
+.product_cards>div>h4{
+    color: #004643;
+    margin-left: 75px;
+}
+.product_cards>div>p{
+    margin-left: 100px;
+    color: #595959;
+}
+/* section qismi uchun */
+.shop_news{
+    display: flex;
+    justify-content: space-between;
+}
+.girls_belong-card{
+    margin-right: 40px;
+}
+.girls_belong-card:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+}
+.girls_belong-card img{
+    border-radius: 10px;
+}
+.shirt_guide{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.shirt_guide img{
+    border-radius: 5px;
+}
+.news_info>div:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+    background-color: darkgray;
+    box-shadow: 0 0 5px 0 black;
+}
+.news_info>h3{
+    color: #004643;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 121%;
+}
+.news_info strong{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #595959;
+}
+.news_info h5{
+    color: #004643;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.news_info p{
+    padding-top: 10px;
+    color: #595959;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+#women-shirt{
+    margin-right: 15px;
+}
+
+/* last-section qismi uchun */
+.last_section{
+    margin: 90px 0;
+}
+.newsletter_card{
+    display: flex;
+    background-color: rgb(44, 163, 163);
+    border-radius: 10px;
+}
+.newsletter_card:hover{
+    transition: 1s;
+    transform: translate3d(5px,3px, 3px);
+}
+.email_about{
+    padding: 0 20px;
+}
+.email_about h2{
+    margin-top: 170px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #004643;
+}
+.email_about p{
+    color: #595959;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.email_adress input{
+   border:1px solid #004643;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 200px;
+   border-radius: 5px;
+}
+.button{
+    padding: 12px 25px;
+    background-color: #004643;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+.newsletter_image img{
+    padding-top: 10px;
+}
+
+/*footer qismi uchun */
+footer{
+    border-radius: 10px;
+    margin: 70px auto;
+    height: 300px;
+    width: 1200px;
+    background-color: #595959;
+}
+.smart_shopping{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+.smart_shopping h3{
+    font-size: 30px;
+    color: #F9E9C3;
+    padding-left: 10px;
+}
+.list_title{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.list_title li{
+    list-style: none;
+    color: white;
+}
+.website_end p{
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+.website_end{
+    width: 1200px;
+    height: 30px;
+    background-color: black;
+}
